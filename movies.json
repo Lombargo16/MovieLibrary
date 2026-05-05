@@ -1,0 +1,15 @@
+
+---
+
+## 🧱 Инструкция по Git
+
+```bash
+mkdir movie_library
+cd movie_library
+git init
+# скопировать файлы: movie_library.py, README.md, .gitignore
+git add .
+git commit -m "Initial commit: Movie Library with JSON and filters"
+# создать репозиторий на GitHub и связать
+git remote add origin https://github.com/yourusername/movie-library.git
+git push -u origin master
